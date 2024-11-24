@@ -1,0 +1,101 @@
+/* SignUpPage.css */
+
+/* Ensure the body and html take up the full height of the screen */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4; /* Light background for the page */
+}
+
+.signup-container {
+    height: 100vh; /* Make the container take full height */
+    padding-top: 50px;  /* Add padding from the top */
+    padding-bottom: 50px; /* Add padding from the bottom */
+}
+
+.signup-card {
+    background-color: #495057; /* Dark card background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px 20px;  /* Padding inside the form card */
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 20px; /* Adjust spacing below the header */
+}
+
+button {
+    background-color: #007bff; /* Primary blue color */
+    padding: 12px 20px; /* Add padding to the button */
+    border-radius: 5px; /* Round the button edges */
+    font-size: 16px; /* Make the font size bigger */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.form-label {
+    color: #adb5bd; /* Light gray for labels */
+    font-size: 14px; /* Slightly smaller font for the labels */
+    margin-bottom: 5px; /* Add space below the label */
+}
+
+.form-control {
+    border-radius: 5px;
+    padding-left: 35px; /* Space for the icon inside the input */
+    margin-bottom: 20px; /* Add more space between form fields */
+    height: 40px; /* Increase height for better accessibility */
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+/* Icons inside input fields */
+.input-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #adb5bd;
+    font-size: 18px; /* Increase icon size */
+}
+
+/* Add padding between the label and the input field */
+.input-with-icon .form-control {
+    padding-left: 40px; /* Ensure there's space for the icon */
+}
+
+/* Centered text for form */
+.text-center {
+    text-align: center;
+}
+
+.text-muted {
+    color: #adb5bd; /* Light gray for muted text */
+}
+
+/* Adjustments for form inputs */
+.form-check-inline {
+    margin-right: 15px; /* Add spacing between radio buttons */
+}
+
+/* Styling for radio buttons */
+.form-check-inline .form-check-input {
+    margin-right: 5px;
+}
+
+.link-signup {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link-signup:hover {
+    text-decoration: underline;
+}

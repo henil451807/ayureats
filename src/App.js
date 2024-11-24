@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import BreakFast from './components/Lanch';
+import LoginPage from './components/LoginPage';
+import MealCards from './components/MealCard';
+import MealPlanForm from './components/MealPlan';
+import SignUpPage from './components/SignUpPage';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        {/* Define your routes here */}
+        <Route path="/" element={<LoginPage />} /> {/* The home page route */}
+        <Route path="/signup" element={<SignUpPage />} /> {/* Sign Up page route */}
+        <Route path="/mealplan" element={<MealPlanForm />} />
+        <Route path="/mealcard" element={<MealCards />} />
+        <Route path="/meal" element={<BreakFast  />} />
+      </Routes>
+    </Router>
   );
 }
 

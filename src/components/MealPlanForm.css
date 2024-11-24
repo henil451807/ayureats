@@ -1,0 +1,54 @@
+/* MealPlanForm.css */
+
+/* Container for the form */
+.meal-plan-container {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    min-height: 100vh;
+  }
+  
+  /* Card style for the form */
+  .meal-form-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Card style for the Meal Plan */
+  .meal-plan-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .meal-plan-card .card-body {
+    text-align: left;
+  }
+  
+  .meal-plan-card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .meal-plan-card .card-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  /* Icon styling */
+  .meal-plan-card .text-center {
+    margin-top: 10px;
+    color: #007bff;
+  }
+  
+  .form-check-inline {
+    margin-right: 15px;
+  }
+  

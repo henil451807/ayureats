@@ -1,0 +1,56 @@
+/* MealCards.css */
+
+/* Container for the cards */
+
+.mealmaincard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.meal-cards-container {
+    padding: 50px;
+    display: flex;
+    justify-content: center; /* Center the cards horizontally */
+  }
+  
+  /* Style for individual cards */
+  .meal-card {
+    border: 2px solid #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin: 20px;
+    cursor: pointer;
+  }
+  
+  .meal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Meal icon on the left */
+  .meal-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+  }
+  
+  /* Text section */
+  .meal-text {
+    flex-grow: 1;
+  }
+  
+  .meal-text .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .meal-text .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  

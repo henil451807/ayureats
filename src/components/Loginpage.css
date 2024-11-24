@@ -1,0 +1,98 @@
+/* LoginPage.css */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4; /* Light background color */
+}
+
+.login-container {
+  height: 100vh; /* Full viewport height */
+  padding: 0 20px; /* Add some padding on the left and right */
+}
+
+.login-card {
+  background-color: #495057; /* Dark card background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 30px; /* Add padding inside the card */
+}
+
+h2 {
+  color: #fff;
+  margin-bottom: 20px; /* Space below the title */
+}
+
+button {
+  background-color: #007bff; /* Primary color */
+  padding: 12px 20px; /* Button padding */
+  border-radius: 5px; /* Round button edges */
+  font-size: 16px; /* Font size */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.form-label {
+  color: #adb5bd; /* Light gray for labels */
+}
+
+.form-control {
+  border-radius: 5px;
+  padding-left: 35px; /* Space for the icon inside the input */
+  margin-bottom: 20px; /* Space between fields */
+  height: 40px; /* Make the input field taller */
+}
+
+.input-with-icon {
+  position: relative; /* Container for the icon and input */
+}
+
+/* Icons inside input fields */
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #adb5bd;
+  font-size: 18px; /* Icon size */
+}
+
+/* Ensure the input field has space for the icon */
+.form-control {
+  padding-left: 40px; /* Increase padding to account for the icon */
+}
+
+/* Styling for text below the form */
+.text-center {
+  text-align: center;
+}
+
+.text-muted {
+  color: #adb5bd; /* Light gray for muted text */
+}
+
+/* Styling for "Can't register?" and "Sign Up" */
+.row.justify-content-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row.justify-content-between .col {
+  padding: 0; /* Remove extra padding around columns */
+}
+
+.link-signup {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link-signup:hover {
+  text-decoration: underline;
+}
